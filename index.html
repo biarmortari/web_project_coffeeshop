@@ -67,20 +67,24 @@
           alt="Ilustração de uma biblioteca e dentro dela um espaço para servir café"
         />
         <div class="header__footer">
-          <ul class="footer__list">
-            <li class="footer__item">Horários:</li>
-            <li class="footer__item">Segunda a sexta (10:00 - 19:00)</li>
-            <li class="footer__item">Sábado a domingo (11:00 - 18:00)</li>
-          </ul>
-          <p class="header__paragraph">
-            200 Success Avenue, a cidade de Triple Peaks
-          </p>
+          <div class="header__footer-hours">
+            <p class="header__paragraph">Horários:</p>
+            <p class="header__paragraph">Segunda a sexta (10:00 - 19:00)</p>
+            <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
+          </div>
+          <div class="header__footer-address">
+            <p class="header__paragraph">
+              200 Success Avenue, a cidade de Triple Peaks
+            </p>
+          </div>
+        </div>
+
         </div>
       </header>
 
       <main class="content">
-        <section class="recipes">
-          <h2 id="recipes" class="recipes__title">Receitas</h2>
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Receitas</h2>
           <h3 class="recipes__subtitle">
             Confira algumas receitas que coletamos para seu lanchinho caseiro:
           </h3>
@@ -117,7 +121,7 @@
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
+        <section class="reservation" id="reservation"></section>
       </main>
       <footer class="footer"></footer>
     </div>
