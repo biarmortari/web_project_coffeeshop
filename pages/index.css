@@ -188,6 +188,7 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  padding-top: 100px;
   background-color: #d9e7ff;
   background-image: url("./../images/background_reservation.svg");
   background-repeat: no-repeat;
@@ -196,7 +197,7 @@
 }
 
 .reservation__title {
-  margin: 100px 0 80px;
+  margin: 0 auto 80px;
   padding: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
