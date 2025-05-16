@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este é um projeto fictício de uma cafeteria chamado **CoffeeShop Triple Peaks**. A página permite que os usuários:
+Este é o projeto de uma cafeteria fictícia chamado **CoffeeShop Triple Peaks**. A página permite que os usuários:
 
 - Consultem receitas de cafés especiais;
 - Reservem uma mesa;
